@@ -13,3 +13,119 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  display: flex;
+  justify-content: center;
+ }
+
+/* This is the input page */
+
+ #main-container {
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+ }
+
+ #main-container h1 {
+  text-align: center;
+ }
+
+ #letters-container {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #letters-container p {
+  width: 40px;
+  height: 40px;
+  background-color: lightskyblue;
+  color: black;
+  text-align: center;
+  font-size: larger;
+ }
+
+ #form-container {
+  width: 100%;
+  display: block;
+  justify-content: space-between;
+ }
+ 
+ #word-input-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ #input-field {
+  flex-grow: 1;
+  height: 30px;
+  margin: 0px;
+ }
+
+ #submit-button {
+  width: 50px;
+  height: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+ }
+
+ /* This is the output page */
+ 
+ #wrapper {
+  display: block;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ #wrapper h1 {
+  width: 500px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ #results-container {
+  display: block;
+  width: 500px;
+  align-items: left;
+  margin: auto;
+  padding: 30px;
+  border: 2px solid black;
+ }
+ 
+ #results-container p {
+  font-size: 24px;
+ }
+
+ #error-message {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  color: red;
+ }
+
+ #button-container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ #play-again {
+  height: 40px;
+  width: 300px;
+  background-color: blue;
+ }
+
+ #play-again a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+ }

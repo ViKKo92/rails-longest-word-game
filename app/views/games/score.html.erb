@@ -1,0 +1,22 @@
+<div id="wrapper">
+  <h1>Your results</h1>
+  <div id="results-container">
+    <p>
+      <strong>Your word: </strong><%= @your_word %>
+    </p>
+    <p>
+      <strong>Length: </strong><%= @length %>
+    </p>
+    <p>
+      <strong>Your score: </strong><%= @score %>
+    </p>
+    <p id="error-message">
+      Error: <%= @error_message %>
+    </p>
+  </div>
+  <div id="button-container">
+    <button id="play-again">
+      <%= link_to "Play again!", new_path %>
+    </button>
+  <div>
+</div>
